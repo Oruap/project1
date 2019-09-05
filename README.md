@@ -25,4 +25,4 @@ Collision-Free property breakIn the case of collision free property, there is no
 7.If no match is found, save the S’s hash into the array and go to step (4) 
 
 To  break  the  collision  free  property,  you  just  need  to  find two  messages  with  matching  hash values. Matching the random string’s hash value to an initial hash as well as saved hash value (in the array) increases the probability of finding hash value with less number of iterations. 
-Execute  the collision.cprogram  five  times  to  find  the  average  number  of iterationsrequired
+Execute  the collision.c program  five  times  to  find  the  average  number  of iterationsrequired
