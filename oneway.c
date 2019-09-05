@@ -10,7 +10,7 @@ void gen_random(char *s, const int len)
 {
 	char charset[] = "0123456789!\"#$%&'()*+-/. ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	/* Generate random string using the characters of length 'len'*/
-	for (int i = 0; i < 24; i++){
+	for (int i = 0; i < len; i++){
 		s[i] = charset[rand() % (sizeof(charset) - 1)];
 	}
 	s[len] = 0;
