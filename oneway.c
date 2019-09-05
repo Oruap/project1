@@ -18,7 +18,7 @@ void gen_random(char *s, const int len)
 
 char alphanum[] = "0123456789!\"#$%&'()*+-/. ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-#define SETLENGTH 24 
+#define SETLENGTH 77
 
 // check whether last string for length len
 int check_last(char *str, int len)
